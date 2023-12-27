@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.header{
+    background-image: url("../images/year.jpg");
+    background-size: cover;   
+    min-height: 100vh;
+    background-position: center;
+}
+
+.header_top{
+    display: flex;
+    background: fixed;
+    padding: 20px 0px;
+}
+
+.menu__list-link{         
+   font-size: 16px;
+   line-height: 20px;
+   text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1,7px;
+    transition: all 0.5s;
+}
+    
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.title{
+    color: blueviolet;
+    margin-top: 70px;
+}
+
+.header_title{
+    font-size: 22px;
+    line-height: 54px;
+
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.countdown__timer{
+    display: flex;
+    justify-content: center;
+}
+
+.timer{
+    margin-left: 30px;
+    background-color: aliceblue;
+    width: 80px;
+    height: 50px;
+    padding: 10px 0;
+    margin-top: 30px;
+    color: black;
+}
+
+.menu_list{
+    margin-left: 30px;
+}
+
+.header_subtitle{
+    margin-bottom: 40px;
+}
+
+.menu__list-link:hover{
+    color: blueviolet;
+}
